@@ -1,6 +1,6 @@
 <?php
 
-namespace Collective\Html;
+namespace Sirajunnasihin\Html;
 
 use BadMethodCallException;
 use DateTime;
