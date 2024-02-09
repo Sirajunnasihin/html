@@ -1,11 +1,11 @@
 {
-    "name": "laravelcollective/html",
+    "name": "sirajunnasihin/html",
     "description": "HTML and Form Builders for the Laravel Framework",
     "license": "MIT",
-    "homepage": "https://laravelcollective.com",
+    "homepage": "https://sirajunnasihin.skom.id",
     "support": {
-        "issues": "https://github.com/LaravelCollective/html/issues",
-        "source": "https://github.com/LaravelCollective/html"
+        "issues": "https://github.com/Sirajunnasihin/html/issues",
+        "source": "https://github.com/Sirajunnasihin/html"
     },
     "authors": [
         {
@@ -15,6 +15,10 @@
         {
             "name": "Taylor Otwell",
             "email": "taylorotwell@gmail.com"
+        },
+        {
+            "name": "Sirajunnasihin",
+            "email": "sirajunnasihin7@gmail.com"
         }
     ],
     "require": {
@@ -32,7 +36,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Collective\\Html\\": "src/"
+            "Sirajunnasihin\\Html\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -44,15 +48,14 @@
         },
         "laravel": {
             "providers": [
-                "Collective\\Html\\HtmlServiceProvider"
+                "Sirajunnasihin\\Html\\HtmlServiceProvider"
             ],
             "aliases": {
-                "Form": "Collective\\Html\\FormFacade",
-                "Html": "Collective\\Html\\HtmlFacade"
+                "Form": "Sirajunnasihin\\Html\\FormFacade",
+                "Html": "Sirajunnasihin\\Html\\HtmlFacade"
             }
         }
     },
-    "minimum-stability": "dev",
-    "abandoned": "spatie/laravel-html",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
